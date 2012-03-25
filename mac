@@ -17,6 +17,9 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
+echo "Installing git"
+  brew install git
+
 echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
 
