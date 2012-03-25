@@ -45,5 +45,5 @@ echo "Installing macvim"
 #echo "Installing janus"
  
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/heroku)
+bash < <(curl -s https://raw.github.com/lfborjas/laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/lfborjas/laptop/master/heroku)
