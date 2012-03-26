@@ -17,12 +17,6 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
-echo "Installing git"
-  brew install git
-
-echo "Installing Postgres, a good open source relational database ..."
-  brew install postgres --no-python
-
 echo "Installing ack, a good way to search through files ..."
   brew install ack
 
@@ -39,11 +33,5 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-echo "Installing macvim"
- brew install macvim
-
-#echo "Installing janus"
- 
-
 bash < <(curl -s https://raw.github.com/lfborjas/laptop/master/ruby)
-bash < <(curl -s https://raw.github.com/lfborjas/laptop/master/heroku)
+bash < <(curl -s https://raw.github.com/lfborjas/laptop/master/vim)
